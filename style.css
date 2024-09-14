@@ -6,6 +6,7 @@
 body {
   color: white;
 }
+/*main page*/
 .main {
   background-image: url(./images/background.png);
   height: 100vh;
@@ -49,6 +50,54 @@ body {
 .main p:hover {
   border: 1px solid orange;
 }
-.main p span:hover{
-    color: orange;
+.main p span:hover {
+  color: orange;
+}
+
+/*my skills page*/
+.mySkills {
+  background-color: black;
+  text-align: center;
+  
+}
+.mySkills h2{
+    padding: 3rem;
+    font-size: 3rem;
+    
+    
+}
+.cards{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    margin-top: 10rem;
+    
+}
+.cards .card{
+    width: 30%;
+    height: 42rem;
+    border: 4px solid orange;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 700px 2px lightsalmon;
+    
+}
+.cards .card img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+}
+.cards .card h3{
+    padding: 1.5rem;
+    font-size: 2rem;
+    background-color:rgba(0, 0, 0, 0.9) ;
+}
+.cards .card p{
+    text-align: justify;
+    padding: 1rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
 }
