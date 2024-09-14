@@ -7,20 +7,20 @@
     <title>Document</title>
   </head>
   <body>
-    <article class="main">
+    <article id="main" class="main">
       <nav>
         <ul>
-          <li><a href=""></a>Home</li>
-          <li><a href=""></a>About me</li>
-          <li><a href=""></a>My skills</li>
-          <li><a href=""></a>Contact</li>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#aboutMe">About me</a></li>
+          <li><a href="#mySkills">My skills</a></li>
+          <li><a href="#contactMe">Contact</a></li>
         </ul>
       </nav>
-      <h1>Welcome To <span class="title">Morino</span>Code</h1>
+      <h1>Welcome To <span class="title">Morino</span> Code</h1>
       <p>I'm a <span>Javascript</span> developer in the making</p>
     </article>
 
-    <article class="mySkills">
+    <article id="mySkills" class="mySkills">
       <h2>My Skills</h2>
       <div class="cards">
         <div class="card">
@@ -57,6 +57,49 @@
         </div>
       </div>
     </article>
+    <article id="aboutMe" class="aboutMe">
+      <section class="aboutMeDesc">
+        <h3>About Me</h3>
+        <p>
+          Hello, my name is Morteza, and I am currently a student at
+          Folkuniversitet, where I am pursuing a course in JavaScript. At
+          Folkuniversitet, I have been diving deep into the world of web
+          development, learning how to write efficient, clean, and scalable
+          JavaScript code. This course is equipping me with the skills needed to
+          build dynamic and interactive websites and applications. Alongside the
+          technical aspects, I’m also learning about best practices in
+          programming, debugging, and modern web development frameworks. My
+          passion for coding stems from the desire to create meaningful digital
+          experiences and to be part of a field that constantly evolves with new
+          challenges and innovations. Through this education, I’m preparing
+          myself for a career where I can contribute to real-world projects and
+          continue growing as a developer. Thank you!
+        </p>
+      </section>
+    </article>
+
+    <article id="contactMe" class="contactMe">
+      <section class="contactMeDesc">
+        <h3>Contact Me</h3>
+        <div class="form">
+          <form>
+            <label for="name">Name</label>
+            <input id="name" type="text" />
+
+            <label for="lastname">LastName</label>
+            <input id="lastname" type="text" />
+
+            <label for="email">E-mail</label>
+            <input id="email" type="email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="" id=""></textarea>
+          </form>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <p>&copy; 2024 Morteza Rasti. All rights reserved.</p>
+    </footer>
   </body>
 </html>
-
